@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Ashutosh Sahu Portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="ashu.codes,ashutosh sahu,ashutosh,web,developer,django developer,django,python">
+    <meta property="og:image" content="https://www.ashu.codes/static/img/ashucodes.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+
+
+    <!-- Favicons -->
+    <link href="static/img/favicon.png" rel="icon">
+    <link href="static/img/favicon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="static/vendor/owl.carousel/static/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/css/style.css" rel="stylesheet">
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M84VPZ65SW"></script>
+	<script>
+		  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M84VPZ65SW');
+	</script>
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-tops">
+        <div class="container">
+
+		<h1><a href="{% url 'index' %}">Ashutosh Sahu</a></h1>
+            <!-- <a href="index.html" class="mr-auto"><img src="static/img/logo.png" alt="" class="img-fluid"></a> -->
+            <h2>student by day, <span>developer</span> by night</h2>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+
+            <div class="social-links">
+                <a href="https://www.hackerrank.com/Hackytosh_" class="twitter"><i class="icofont-code-alt"></i></a>
+                <a href="https://www.facebook.com/hackytosh/" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/hackytosh_/" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="https://github.com/hacky-tosh" class="google-plus"><i class="icofont-github"></i></a>
+                <a href="https://www.linkedin.com/in/hackytosh/" class="linkedin"><i class="icofont-linkedin"></i></a>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+        <!-- ======= About Me ======= -->
+        <div class="about-me container">
+
+            <div class="section-title">
+                <h2>About</h2>
+                <p>Know more about me</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="static/img/nme.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Freelancer &amp; web developer </h3>
+                    <p class="font-italic">
+                        student by day, developer by night </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 5 Sep 2001</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.ashu.codes</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 9569461019</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Prayagraj, India</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 20</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Tech (pursuing)</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> bankashu74@gmail.com</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>
+
+                        Innovative web developer with 2 years of experience building and maintaining responsive websites in the recruiting industry.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- End About Me -->
+
+        <!-- ======= Counts ======= -->
+        <div class="counts container">
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="icofont-simple-smile"></i>
+                        <span data-toggle="counter-up">20</span>
+
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="count-box">
+                        <i class="icofont-document-folder"></i>
+                        <span data-toggle="counter-up">10</span>
+                        <p>Projects</p>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="icofont-live-support"></i>
+                        <span data-toggle="counter-up">1,463</span>
+                        <p>Hours Of Support</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="icofont-users-alt-5"></i>
+                        <span data-toggle="counter-up">15</span>
+                        <p>Hard Workers</p>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </div>
+        <!-- End Counts -->
+
+        <!-- ======= Skills  ======= -->
+        <div class="skills container">
+
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="row skills-content">
+
+                <div class="col-lg-6">
+
+                    <div class="progress">
+                        <span class="skill">HTML <i class="val">100%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">CSS <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">JavaScript <i class="val">75%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="progress">
+                        <span class="skill">Python<i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="skill">c/c++<i class="val">65%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Django <i class="val">70%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="skill">AWS/cloud <i class="val">55%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <span class="skill">Git <i class="val">75%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Skills -->
+
+        <!-- ======= Interests ======= -->
+        <div class="interests container">
+
+            <div class="section-title">
+                <h2>Interests</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="ri-store-line" style="color: #ffbb2c;"></i>
+                        <h3>Cloud Computing</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                        <h3>Python Programming</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                        <h3>APIs</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-database-2-line" style="color: #47aeff;"></i>
+                        <h3>Linux</h3>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                        <h3>Eiusmod Tempor</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                        <h3>Midela Teren</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+                        <h3>Pira Neve</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                        <h3>Dirada Pack</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-disc-line" style="color: #b20969;"></i>
+                        <h3>Moton Ideal</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                        <h3>Verdo Park</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                        <h3>Flavor Nivelanda</h3>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+        <!-- End Interests -->
+
+        <!-- ======= Testimonials =======
+        <div class="testimonials container">
+
+            <div class="section-title">
+                <h2>Testimonials</h2>
+            </div>
+
+            <div class="owl-carousel testimonials-carousel">
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at
+                        semper.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="static/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        anim culpa.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="static/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="static/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore
+                        illum veniam.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="static/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                        fore nisi cillum quid.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="static/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                </div>
+
+            </div>
+
+        </div> -->
+        <!-- End Testimonials  -->
+
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Resume</h2>
+                <p>Check My Resume</p>
+		  <a href="https://www.ashu.codes/static/resume.pdf"><h2>Download Resume</h2></a>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Sumary</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Ashutosh Sahu</h4>
+                        <p><em>A self-thought programmer who likes to solve problems. I merge a passion for usability and user experience with technical knowledge to
+			create highly scalable and resilient solutions</em></p>
+                        <p>
+                            <ul>
+                                <li>Karma Bazar, Prayagraj, UP, India</li>
+                                <li>+91-9569461019</li>
+                                <li>bankashu74@gmail.com</li>
+                            </ul>
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>Freelance WordPress Developer</h4>
+                        <h5>2018 - Present</h5>
+                        <p><em>India</em></p>
+                        <p>
+                            <ul>
+                                <li>Developed many E-commerce, Blogs, Multivendor websites for my clients</li>
+
+                            </ul>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Education</h3>
+
+                    <div class="resume-item">
+                        <h4>B.Tech ( Computer Science & Engineering )
+			</h4>
+                        <h5>2019 - 2023</h5>
+                        <p><em>United Institute of Technology, Prayagraj, India</em></p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Internships</h3>
+                    <div class="resume-item">
+                        <h4>Web Development Intern</h4>
+                        <p><em>Palindrome Trip Advisor Tour OPC Private Limited, India</em></p>
+                        <h5>May 2020 – Aug 2020 3 Months</h5>
+
+                        <p>
+                            <ul>
+                                <li>Developed many sites & handles the cloud servers of the company</li>
+
+                            </ul>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Licenses & certifications</h3>
+                    <div class="resume-item">
+                        <h4>ICSI | CNSS Certified Network Security Specialist (online)</h4>
+                        <p><em>ICSI (International CyberSecurity Institute), UK</em></p>
+                        <h5> Issued Jul 2020 </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4>Computer System Security</h4>
+                        <p><em>ICT Academy, IIT Kanpur</em></p>
+                        <h5> Issued Mar 2020 </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4>Python and Django Full Stack Web Developer Bootcamp</h4>
+                        <p><em>Udemy</em></p>
+                        <h5> Issued Jun 2021 </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4>Programming with Python</h4>
+                        <p><em>Internshala</em></p>
+                        <h5> Issued Jun 2020 </h5>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Accomplishments / coding challenges</h3>
+                    <div class="resume-item">
+                        <h4>Problem Solving (Basic)</h4>
+                        <p><em>Issuing Authority HackerRank</em></p>
+                        <h5>
+                            <a href="https://www.hackerrank.com/certificates/4bad0cd6d198">See Credential</a>
+                        </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4>Python (Basic)</h4>
+                        <p><em>Issuing Authority HackerRank</em></p>
+                        <h5>
+                            <a href="https://www.hackerrank.com/certificates/d5f29dd44ccb">See Credential</a>
+                        </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4> 5* Python</h4>
+                        <p><em>Issuing Authority HackerRank</em></p>
+                        <h5>
+                            <a href="https://www.hackerrank.com/Hackytosh_?hr_r=1">See Credential</a>
+                        </h5>
+
+                    </div>
+                    <br>
+                    <div class="resume-item">
+                        <h4>3* Problem Solving </h4>
+                        <p><em>Issuing Authority HackerRank</em></p>
+                        <h5>
+                            <a href="https://www.hackerrank.com/Hackytosh_?hr_r=1">See Credential</a>
+                        </h5>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+    </section>
+    <!-- End Resume Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>My Works</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Python</li>
+                        <li data-filter=".filter-card">Django</li>
+                        <li data-filter=".filter-web">Html-CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="static/img/projects/phr.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Python Healthy Programmer</h4>
+                            <p>Python</p>
+                            <div class="portfolio-links">
+                                <a href="static/img/projects/phr.png" data-gall="portfolioGallery" class="venobox" title="Python"><i class="bx bx-plus"></i></a>
+                                <a href="https://github.com/hacky-tosh/Python-Healthy-Programmer-" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="static/img/projects/dtl.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Django-Todo List</h4>
+                            <p>Django</p>
+                            <div class="portfolio-links">
+                                <a href="static/img/projects/dtl.png" data-gall="portfolioGallery" class="venobox" title="Django"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="static/img/projects/btw.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Bootstrap Travel Website</h4>
+                            <p>Html-CSS</p>
+                            <div class="portfolio-links">
+                                <a href="static/img/projects/tt.png" data-gall="portfolioGallery" class="venobox" title="Bootstrap Travel Website"><i class="bx bx-plus"></i></a>
+                                <a href="https://github.com/hacky-tosh/bootstrap-Travel-website" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="static/img/projects/tt.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Turner Trios</h4>
+                            <p>Html-CSS</p>
+                            <div class="portfolio-links">
+                                <a href="portfolio-details.html" data-gall="portfolioGallery" class="venobox" title="Turner Trios"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Contact Me</p>
+            </div>
+
+            <div class="row mt-2">
+
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-map"></i>
+                        <h3>My Address</h3>
+                        <p>Karma Bazar, Prayagraj, UP, India</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-share-alt"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="https://www.hackerrank.com/Hackytosh_" class="twitter"><i class="icofont-code-alt"></i></a>
+                            <a href="https://www.facebook.com/hackytosh/" class="facebook"><i class="icofont-facebook"></i></a>
+                            <a href="https://www.instagram.com/hackytosh_/" class="instagram"><i class="icofont-instagram"></i></a>
+                            <a href="https://github.com/hacky-tosh" class="google-plus"><i class="icofont-github"></i></a>
+                            <a href="https://www.linkedin.com/in/hackytosh/" class="linkedin"><i class="icofont-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email Me</h3>
+                        <p>bankashu74@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Call Me</h3>
+                        <p>+91</p>
+                    </div>
+                </div>
+            </div>
+
+            <form action="/" method="post" role="form" class="php-email-form mt-4">
+                  {% csrf_token %}
+                <div class="form-row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                </div>
+
+                <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="static/vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="static/vendor/php-email-form/validate.js"></script>
+    <script src="static/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="static/vendor/counterup/counterup.min.js"></script>
+    <script src="static/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/vendor/venobox/venobox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
